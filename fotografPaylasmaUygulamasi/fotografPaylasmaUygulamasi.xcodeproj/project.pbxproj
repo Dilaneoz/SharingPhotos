@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2260CF0A2965F48D008A4E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CF092965F48D008A4E49 /* AppDelegate.swift */; };
+		2260CF0C2965F48D008A4E49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CF0B2965F48D008A4E49 /* SceneDelegate.swift */; };
+		2260CF0E2965F48D008A4E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CF0D2965F48D008A4E49 /* ViewController.swift */; };
+		2260CF112965F48D008A4E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2260CF0F2965F48D008A4E49 /* Main.storyboard */; };
+		2260CF132965F48E008A4E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2260CF122965F48E008A4E49 /* Assets.xcassets */; };
+		2260CF162965F48E008A4E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2260CF142965F48E008A4E49 /* LaunchScreen.storyboard */; };
+		2260CF1E2965F8DA008A4E49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2260CF1D2965F8DA008A4E49 /* GoogleService-Info.plist */; };
+		2260CF2829662DE0008A4E49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CF2729662DE0008A4E49 /* SettingsViewController.swift */; };
+		2260CF2A29662E22008A4E49 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CF2929662E22008A4E49 /* UploadViewController.swift */; };
+		2260CF2C29662E3E008A4E49 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260CF2B29662E3E008A4E49 /* FeedViewController.swift */; };
+		ADE964759324C9E4C0E7DAC8 /* Pods_fotografPaylasmaUygulamasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6E3A49B49F1D736070155A /* Pods_fotografPaylasmaUygulamasi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2260CF062965F48D008A4E49 /* fotografPaylasmaUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fotografPaylasmaUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2260CF092965F48D008A4E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2260CF0B2965F48D008A4E49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2260CF0D2965F48D008A4E49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2260CF102965F48D008A4E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2260CF122965F48E008A4E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2260CF152965F48E008A4E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2260CF172965F48E008A4E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2260CF1D2965F8DA008A4E49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2260CF2729662DE0008A4E49 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2260CF2929662E22008A4E49 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		2260CF2B29662E3E008A4E49 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		54359FB6AAC3424AD67CC654 /* Pods-fotografPaylasmaUygulamasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotografPaylasmaUygulamasi.debug.xcconfig"; path = "Target Support Files/Pods-fotografPaylasmaUygulamasi/Pods-fotografPaylasmaUygulamasi.debug.xcconfig"; sourceTree = "<group>"; };
+		868194676F0762CBCAC15157 /* Pods-fotografPaylasmaUygulamasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotografPaylasmaUygulamasi.release.xcconfig"; path = "Target Support Files/Pods-fotografPaylasmaUygulamasi/Pods-fotografPaylasmaUygulamasi.release.xcconfig"; sourceTree = "<group>"; };
+		8C6E3A49B49F1D736070155A /* Pods_fotografPaylasmaUygulamasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fotografPaylasmaUygulamasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2260CF032965F48D008A4E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE964759324C9E4C0E7DAC8 /* Pods_fotografPaylasmaUygulamasi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2260CEFD2965F48D008A4E49 = {
+			isa = PBXGroup;
+			children = (
+				2260CF082965F48D008A4E49 /* fotografPaylasmaUygulamasi */,
+				2260CF072965F48D008A4E49 /* Products */,
+				F0502880EC754BF537E4EDCF /* Pods */,
+				F0EFA3EB127771195DAFDF82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2260CF072965F48D008A4E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2260CF062965F48D008A4E49 /* fotografPaylasmaUygulamasi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2260CF082965F48D008A4E49 /* fotografPaylasmaUygulamasi */ = {
+			isa = PBXGroup;
+			children = (
+				2260CF092965F48D008A4E49 /* AppDelegate.swift */,
+				2260CF1D2965F8DA008A4E49 /* GoogleService-Info.plist */,
+				2260CF0B2965F48D008A4E49 /* SceneDelegate.swift */,
+				2260CF0D2965F48D008A4E49 /* ViewController.swift */,
+				2260CF0F2965F48D008A4E49 /* Main.storyboard */,
+				2260CF122965F48E008A4E49 /* Assets.xcassets */,
+				2260CF142965F48E008A4E49 /* LaunchScreen.storyboard */,
+				2260CF172965F48E008A4E49 /* Info.plist */,
+				2260CF2729662DE0008A4E49 /* SettingsViewController.swift */,
+				2260CF2929662E22008A4E49 /* UploadViewController.swift */,
+				2260CF2B29662E3E008A4E49 /* FeedViewController.swift */,
+			);
+			path = fotografPaylasmaUygulamasi;
+			sourceTree = "<group>";
+		};
+		F0502880EC754BF537E4EDCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54359FB6AAC3424AD67CC654 /* Pods-fotografPaylasmaUygulamasi.debug.xcconfig */,
+				868194676F0762CBCAC15157 /* Pods-fotografPaylasmaUygulamasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0EFA3EB127771195DAFDF82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C6E3A49B49F1D736070155A /* Pods_fotografPaylasmaUygulamasi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2260CF052965F48D008A4E49 /* fotografPaylasmaUygulamasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2260CF1A2965F48E008A4E49 /* Build configuration list for PBXNativeTarget "fotografPaylasmaUygulamasi" */;
+			buildPhases = (
+				357883A630B0E32BA217220E /* [CP] Check Pods Manifest.lock */,
+				2260CF022965F48D008A4E49 /* Sources */,
+				2260CF032965F48D008A4E49 /* Frameworks */,
+				2260CF042965F48D008A4E49 /* Resources */,
+				732CA04031DE7BCD1B8C65C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fotografPaylasmaUygulamasi;
+			productName = fotografPaylasmaUygulamasi;
+			productReference = 2260CF062965F48D008A4E49 /* fotografPaylasmaUygulamasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2260CEFE2965F48D008A4E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2260CF052965F48D008A4E49 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2260CF012965F48D008A4E49 /* Build configuration list for PBXProject "fotografPaylasmaUygulamasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2260CEFD2965F48D008A4E49;
+			productRefGroup = 2260CF072965F48D008A4E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2260CF052965F48D008A4E49 /* fotografPaylasmaUygulamasi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2260CF042965F48D008A4E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2260CF162965F48E008A4E49 /* LaunchScreen.storyboard in Resources */,
+				2260CF1E2965F8DA008A4E49 /* GoogleService-Info.plist in Resources */,
+				2260CF132965F48E008A4E49 /* Assets.xcassets in Resources */,
+				2260CF112965F48D008A4E49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		357883A630B0E32BA217220E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fotografPaylasmaUygulamasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732CA04031DE7BCD1B8C65C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fotografPaylasmaUygulamasi/Pods-fotografPaylasmaUygulamasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fotografPaylasmaUygulamasi/Pods-fotografPaylasmaUygulamasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fotografPaylasmaUygulamasi/Pods-fotografPaylasmaUygulamasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2260CF022965F48D008A4E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2260CF0E2965F48D008A4E49 /* ViewController.swift in Sources */,
+				2260CF2A29662E22008A4E49 /* UploadViewController.swift in Sources */,
+				2260CF0A2965F48D008A4E49 /* AppDelegate.swift in Sources */,
+				2260CF0C2965F48D008A4E49 /* SceneDelegate.swift in Sources */,
+				2260CF2C29662E3E008A4E49 /* FeedViewController.swift in Sources */,
+				2260CF2829662DE0008A4E49 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2260CF0F2965F48D008A4E49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2260CF102965F48D008A4E49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2260CF142965F48E008A4E49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2260CF152965F48E008A4E49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2260CF182965F48E008A4E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2260CF192965F48E008A4E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2260CF1B2965F48E008A4E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54359FB6AAC3424AD67CC654 /* Pods-fotografPaylasmaUygulamasi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWCL4FQ7R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fotografPaylasmaUygulamasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dilanozturk.fotografPaylasmaUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2260CF1C2965F48E008A4E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868194676F0762CBCAC15157 /* Pods-fotografPaylasmaUygulamasi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWCL4FQ7R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fotografPaylasmaUygulamasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dilanozturk.fotografPaylasmaUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2260CF012965F48D008A4E49 /* Build configuration list for PBXProject "fotografPaylasmaUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2260CF182965F48E008A4E49 /* Debug */,
+				2260CF192965F48E008A4E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2260CF1A2965F48E008A4E49 /* Build configuration list for PBXNativeTarget "fotografPaylasmaUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2260CF1B2965F48E008A4E49 /* Debug */,
+				2260CF1C2965F48E008A4E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2260CEFE2965F48D008A4E49 /* Project object */;
+}
